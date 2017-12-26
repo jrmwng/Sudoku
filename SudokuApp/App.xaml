@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="SudokuApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SudokuApp"
+    RequestedTheme="Light">
+
+	<Application.Resources>
+		<ResourceDictionary>
+			<SolidColorBrush Color="Green" x:Key="SolidGreenBrush"/>
+			<SolidColorBrush Color="Red" x:Key="SolidRedBrush"/>
+		</ResourceDictionary>
+	</Application.Resources>
+
+</Application>
